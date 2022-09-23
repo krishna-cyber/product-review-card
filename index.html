@@ -11,10 +11,22 @@
   <title>Document</title>
 </head>
 <body class="flex justify-center items-center h-screen">
-  <main class="card flex h-3/4 w-auto rounded-xl shadow-2xl">
+  <main class="card flex h-3/4 w-2/4 shadow-2xl">
     <img class=" rounded-l-xl" src="./images/image-product-desktop.jpg" alt="">
-    <div class="product-details">
+    <div class="product-details p-8 flex flex-col rounded-xl gap-4">
+     <p class="product-type px-4 font-sans ">PERFUME</p>
+     <h2 class="product-name px-4 font-extrabold text-4xl">Gabrielle Essence Eau De Parfum</h2>
+     <P class="product-description text-lg px-4">A floral, solar and voluptuous interpretation composed by oliver polge, perfumer-creator for the House of CHANEL</P>
+      <div class=" px-4 flex items-center">
+        <h2 class="price-cost font-extrabold text-4xl">$149.99</h2>
+      <span class="discount ml-6 line-through">$169.99</span>
+      </div>
+     
       
+     <div class="btn flex gap-3 items-center justify-center mt-3 px-4 py-4 rounded-lg">
+      <img src="./images/icon-cart.svg" alt="">
+      <span>Add to cart</span>
+     </div>
     </div>
   </main>
 </body>
